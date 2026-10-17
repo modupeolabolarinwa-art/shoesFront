@@ -4,7 +4,7 @@ import axios, {
 } from "axios";
 
 const api: AxiosInstance = axios.create({
-  baseURL: "https://shoeback.onrender.com/api",
+  baseURL: "https://shoesback-v388.onrender.com/api",
 });
 
 api.interceptors.request.use((config: InternalAxiosRequestConfig) => {
